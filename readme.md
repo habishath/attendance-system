@@ -6,29 +6,29 @@ This project is an imaginary school system for managing student attendance. It i
 
 ## Project Structure
 
-attendance-system/
-+--- server/
+attendance-system/<br>
++--- server/<br>
 |   +--- index.js<br>
 |   +--- users.json (optional)<br>
-|   +--- .env
-+--- client/
-|   +--- public/
+|   +--- .env<br>
++--- client/<br>
+|   +--- public/<br>
 |   |   +--- vite.svg (optional)<br>
-|   +--- src/
+|   +--- src/<br>
 |   |   +--- pages/<br>
 |   |   |   +--- Home.jsx<br>
 |   |   |   +--- Login.jsx<br>
 |   |   +--- App.css<br>
 |   |   +--- App.jsx<br>
 |   |   +--- index.css<br>
-|   |   +--- main.jsx
+|   |   +--- main.jsx<br>
 |   +--- index.html<br>
 |   +--- package.json<br>
 |   +--- package-lock.json (generated)<br>
 |   +--- postcss.config.js (optional)<br>
-|   +--- tailwind.config.js (optional)
-+--- docs/ (optional)
-+--- README.md
+|   +--- tailwind.config.js (optional)<br>
++--- docs/ (optional)<br>
++--- README.md<br>
 
 
 ## Getting Started
@@ -79,7 +79,7 @@ The client will start on 'http://localhost:5173'.
 
 For testing purposes, you can use the following credentials:
 
-Username: 'admin'
+Username: 'admin'<br>
 Password: 'password'
 
 **Screenshots**
