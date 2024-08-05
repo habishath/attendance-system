@@ -30,3 +30,66 @@ attendance-system
 │ └── vite.config.js
 ├── docs
 └── README.md
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 14.x or later)
+- [npm](https://www.npmjs.com/) (version 6.x or later)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+1. **Clone the Repository**
+
+   ```sh
+   git clone <repository-url>
+   cd attendance-system
+
+2. **Set Up the Server**
+
+   ```sh
+   cd server
+   npm install
+
+3. **Set Up the Client**
+
+   ```sh
+   cd ../client
+   npm install
+
+**Running the Application**
+
+1. **Start the Server**
+   ```sh
+    cd server
+    node index.js
+
+The server will start on 'http://localhost:5001'.
+
+2. **Start the Client**
+   ```sh
+    cd ../client
+    npm run dev
+
+The client will start on 'http://localhost:5173'.
+
+**Login Credentials**
+
+For testing purposes, you can use the following credentials:
+
+Username: 'admin'
+Password: 'password'
+
+**Screenshots**
+
+Screenshots of the significant tasks such as the login screen and home screen can be found in the 'docs' folder.
+
+
+
+
+
+   
+
+
