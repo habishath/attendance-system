@@ -6,30 +6,29 @@ This project is an imaginary school system for managing student attendance. It i
 
 ## Project Structure
 
-attendance-system
-├── server
-│ ├── index.js
-│ ├── users.json
-│ └── .env
-├── client
-│ ├── public
-│ │ └── vite.svg
-│ ├── src
-│ │ ├── pages
-│ │ │ ├── Home.jsx
-│ │ │ └── Login.jsx
-│ │ ├── App.css
-│ │ ├── App.jsx
-│ │ ├── index.css
-│ │ └── main.jsx
-│ ├── index.html
-│ ├── package.json
-│ ├── package-lock.json
-│ ├── postcss.config.js
-│ ├── tailwind.config.js
-│ └── vite.config.js
-├── docs
-└── README.md
+attendance-system/
++--- server/
+|    +--- index.js
+|    +--- users.json (optional)
+|    +--- .env
++--- client/
++--- public/
+|    +--- vite.svg (optional)
++--- src/
+|    +--- pages/
+|         +--- Home.jsx
+|         +--- Login.jsx
+|    +--- App.css
+|    +--- App.jsx
+|    +--- index.css
+|    +--- main.jsx
++--- index.html
++--- package.json
++--- package-lock.json (generated)
++--- postcss.config.js (optional)
++--- tailwind.config.js (optional)
++--- docs/ (optional)
++--- README.md
 
 ## Getting Started
 
